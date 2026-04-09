@@ -17,8 +17,8 @@
     background-color: lightgray;
 }
 
-.hovered {
-    background-color: lightblue;
+.container div.hovered {
+    background-color: black;
 }
 
 body {
@@ -26,4 +26,16 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100dvh;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.size-button {
+    width: 150px;
+    padding: 10px;
 }
