@@ -8,7 +8,16 @@
 </head>
 <body>
     <div class="main-content">
-        <button type="button" class="size-button">Change grid size</button>
+        <button type="button" id="open-modal">Change grid size</button>
+
+        <div class="size-modal" id="size-modal">
+            <div class="inner-modal" id="inner-modal">
+                <h2>Change Grid Size</h2>
+                <input type="number" id="grid-size">
+                <button type="button" id="close-modal">Cancel</button>
+            </div>
+        </div>
+
         <div class="container"></div>
     </div>
     <script src="script.js"></script>
